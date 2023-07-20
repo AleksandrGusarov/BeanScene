@@ -1,0 +1,582 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Clicker+Script&family=Playfair+Display:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href=" css/slick.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Restro</title>
+  </head>
+  <body>
+    <div class="page">
+      <!--Header-->
+      <header class="header" id="header">
+        <div class="container">
+          <div class="header__inner">
+            <div class="header__logo">
+              <a href="#">Bean Scene</a>
+            </div>
+
+            <nav class="nav" id="nav">
+              <a class="nav__link" href="#" data-scroll="#intro">Home</a>
+              <a class="nav__link" href="#" data-scroll="#menu">Menu</a>
+              <a class="nav__link" href="#" data-scroll="#about">About Us</a>
+              <a class="nav__link" href="#" data-scroll="#contacts"
+                >Contact Us</a
+              >
+            </nav>
+
+            <nav class="nav" id="nav">
+              <div class="header__contacts">
+                <a
+                  class="btn btn--orange"
+                  type="buttom"
+                  href="#"
+                  data-modal="#loginModal"
+                  >Sign In</a
+                >
+                <a
+                  class="btn btn--orange"
+                  type="buttom"
+                  href="#"
+                  data-modal="#regModal"
+                  >Sing Up</a
+                >
+              </div>
+            </nav>
+
+            <button class="burger" type="button" id="navToggle">
+              <span class="burger__line">1</span>
+              <span class="burger__line">2</span>
+              <span class="burger__line">3</span>
+              <span class="burger__line">4</span>
+            </button>
+          </div>
+          <!--/container-->
+        </div>
+      </header>
+
+      <!--Intro-->
+      <section class="intro" id="intro">
+        <div class="container">
+          <div class="intro__inner">
+            <h3 class="intro__suptitle">We’ve got your morning covered with</h3>
+            <h2 class="intro__title">Coffee</h2>
+            <p class="intro__text">
+              It is best to start your day with a cup of coffee. Discover the
+              best flavours coffee you will ever have. We provide the best for
+              our customers.
+            </p>
+            <a class="btn btn--intro btn--orange" type="buttom" href="#"
+              >Order Now</a
+            >
+          </div>
+          <!--/container-->
+        </div>
+      </section>
+
+      <!--Best Coffe-->
+      <section class="section section--best">
+        <div class="container">
+          <div class="section__item">
+            <div class="section__bgleft">
+              <img src=" img/coffee_blastLT.svg" alt="" />
+            </div>
+            <div class="section_col">
+              <div class="section__left">
+                <h2 class="section__title">Discover the best coffee</h2>
+                <p class="section__text">
+                  Bean Scene is a coffee shop that provides you with quality
+                  coffee that helps boost your productivity and helps build your
+                  mood. Having a cup of coffee is good, but having a cup of real
+                  coffee is greater. There is no doubt that you will enjoy this
+                  coffee more than others you have ever tasted.
+                </p>
+                <a class="btn btn--section btn--orange" href="#">Learn More</a>
+              </div>
+              <div class="section__right">
+                <img class="section__img" src=" img/Mask.svg" alt="" />
+              </div>
+            </div>
+            <!--/section__item-->
+          </div>
+          <!--/container-->
+        </div>
+      </section>
+
+      <!--Menu-->
+      <section class="section" id="menu">
+        <div class="container">
+          <div class="menu__inner">
+            <div class="menu__content">
+              <h2 class="menu__title">Enjoy a new blend of coffee style</h2>
+              <p class="menu__text">
+                Explore all flavours of coffee with us. There is always a new
+                cup worth experiencing
+              </p>
+            </div>
+            <div class="menu__item">
+              <div class="menu__style">
+                <img src=" img/CoffeStyle/Cappuccino.svg" alt="" />
+                <h2 class="style__suptitle">Cappuccino</h2>
+                <h2 class="style__title">Coffee 50% | Milk 50%</h2>
+                <p class="style__text">$8.50</p>
+                <a class="btn btn--menu btn--orange" href="#">Order Now</a>
+              </div>
+
+              <div class="menu__style">
+                <img src=" img/CoffeStyle/Latte.svg" alt="" />
+                <h2 class="style__suptitle">Chai Latte</h2>
+                <h2 class="style__title">Coffee 50% | Milk 50%</h2>
+                <p class="style__text">$8.50</p>
+                <a class="btn btn--menu btn--orange" href="#">Order Now</a>
+              </div>
+
+              <div class="menu__style">
+                <img src=" img/CoffeStyle/Macchiato.svg" alt="" />
+                <h2 class="style__suptitle">Macchiato</h2>
+                <h2 class="style__title">Coffee 50% | Milk 50%</h2>
+                <p class="style__text">$8.50</p>
+                <a class="btn btn--menu btn--orange" href="#">Order Now</a>
+              </div>
+
+              <div class="menu__style">
+                <img src=" img/CoffeStyle/Expresso.svg" alt="" />
+                <h2 class="style__suptitle">Expresso</h2>
+                <h2 class="style__title">Coffee 50% | Milk 50%</h2>
+                <p class="style__text">$8.50</p>
+                <a class="btn btn--menu btn--orange" href="#">Order Now</a>
+              </div>
+            </div>
+            <!--/Menu__Inner-->
+          </div>
+          <!--/container-->
+        </div>
+      </section>
+
+      <!--Benefist-->
+      <section class="section section--benefist" id="about">
+        <div class="container">
+          <div class="benefist__inner">
+            <div class="section__bgright">
+              <img src=" img/coffee_blastRT.svg" alt="" />
+            </div>
+            <div class="menu__content">
+              <h2 class="menu__title">Why are we different?</h2>
+              <p class="menu__text">
+                We don’t just make your coffee, we make your day!
+              </p>
+            </div>
+            <div class="benefist__item">
+              <div class="benefist__style">
+                <img src=" img/different/Supreme.svg" alt="" />
+                <h2 class="benefist__title">Supreme Beans</h2>
+                <p class="benefist__text">Beans that provides great taste</p>
+              </div>
+
+              <div class="benefist__style">
+                <img src=" img/different/Quality.svg" alt="" />
+                <h2 class="benefist__title">High Quality</h2>
+                <p class="benefist__text">We provide the highest quality</p>
+              </div>
+
+              <div class="benefist__style">
+                <img src=" img/different/cup.svg" alt="" />
+                <h2 class="benefist__title">Extraordinary</h2>
+                <p class="benefist__text">Coffee like you have never tasted</p>
+              </div>
+
+              <div class="benefist__style">
+                <img src=" img/different/price.svg" alt="" />
+                <h2 class="benefist__title">Affordable Price</h2>
+                <p class="benefist__text">
+                  Our Coffee prices are easy to afford
+                </p>
+              </div>
+            </div>
+
+            <div class="benefist__footer">
+              <p class="benefist__text">
+                Great ideas start with great coffee, Lets help you achieve that
+                <br />
+                <span> Get started today.</span>
+              </p>
+              <a class="btn btn--section btn--orange" href="#">Join Us</a>
+            </div>
+            <!--/Menu__Inner-->
+          </div>
+          <!--/container-->
+        </div>
+      </section>
+
+      <!--Amazing-->
+      <section class="section amazing--section">
+        <div class="container">
+          <div class="amazing__item">
+            <div class="amazing__col">
+              <div class="amazing__left">
+                <h2 class="amazing__title">
+                  Get a chance to have an <br />
+                  Amazing morning
+                </h2>
+                <p class="amazing__text">
+                  We are giving you are one time opportunity to experience a
+                  better life with coffee.
+                </p>
+
+                <div class="amazing__btn">
+                  <a class="btn btn--intro btn--orange" href="#">Order Now</a>
+                </div>
+              </div>
+
+              <div class="amazing__right">
+                <div class="amazing__img">
+                  <img
+                    class="coffee__img"
+                    src=" img/Amazing/coffee_bean.svg"
+                    alt=""
+                  />
+                </div>
+                <div class="amazing__img">
+                  <img
+                    class="cup__img"
+                    src=" img/Amazing/cup.svg"
+                    alt=""
+                  />
+                </div>
+              </div>
+            </div>
+            <!--/section__item-->
+          </div>
+          <!--/container-->
+        </div>
+      </section>
+
+      <!--Feedback-->
+      <section class="section__feedback">
+        <div class="container">
+          <div class="feedback__inner">
+            <div class="menu__content">
+              <h2 class="section__title">Our coffee perfection feedback</h2>
+              <p class="menu__text">
+                Our customers has amazing things to say about us
+              </p>
+            </div>
+          </div>
+
+          <div class="feedback__photo">
+            <img
+              class="feedback__blastTop"
+              src=" img/Feedback/coffee_blastTop.svg"
+              alt=""
+            />
+            <img
+              class="feedback__blastBottom"
+              src=" img/Feedback/coffee_blastBottom.svg"
+              alt=""
+            />
+          </div>
+
+          <div class="feedback" id="feedbackSlider">
+            <div class="feedback__item">
+              <p class="feedback__text">
+                Lorem Ipsum is simply dummy text of the printing and typesetting
+                industry. Lorem Ipsum has been the industry's standard dummy
+                text ever since the 1500s, when an unknown printer took a galley
+                of type and scrambled it to make a type specimen book. It has
+                survived not only five centuries, but also the leap into
+                electronic typesetting, remaining essentially unchanged. It was
+                popularised in the 1960s with the release of Letraset.....
+              </p>
+              <h2 class="feedback__name">Jonny Thomas</h2>
+              <h3 class="feedback__prof">Project Manager</h3>
+              <img
+                class="feedback__author"
+                src=" img/Feedback/author.svg"
+                alt=""
+              />
+            </div>
+
+            <div class="feedback__item">
+              <p class="feedback__text">
+                Lorem Ipsum is simply dummy text of the printing and typesetting
+                industry. Lorem Ipsum has been the industry's standard dummy
+                text ever since the 1500s, when an unknown printer took a galley
+                of type and scrambled it to make a type specimen book. It has
+                survived not only five centuries, but also the leap into
+                electronic typesetting, remaining essentially unchanged. It was
+                popularised in the 1960s with the release of Letraset.....
+              </p>
+              <h2 class="feedback__name">Jonny Thomas</h2>
+              <h3 class="feedback__prof">Project Manager</h3>
+              <img
+                class="feedback__author"
+                src=" img/Feedback/author.svg"
+                alt=""
+              />
+            </div>
+          </div>
+
+          <!--/container-->
+        </div>
+      </section>
+
+      <!--News-->
+      <section class="section__news">
+        <div class="container">
+          <div class="news__inner">
+            <div class="news__content">
+              <h2 class="news__title">Our coffee perfection feedback</h2>
+              <p class="news__text">
+                Our customers has amazing things to say about us
+              </p>
+
+              <form class="form__news" action="/" method="post">
+                <input
+                  class="input"
+                  type="text"
+                  placeholder="Enter your mail"
+                />
+
+                <button class="form__btn" type="submit">Suscribe</button>
+              </form>
+            </div>
+            <!--/news__Inner-->
+          </div>
+          <!--/container-->
+        </div>
+      </section>
+
+      <!--Footer-->
+
+      <footer class="footer" id="contacts">
+        <div class="container">
+          <div class="footer__cup">
+            <img
+              class="cup__Left"
+              src=" img/News/cup_bgLeft.svg"
+              alt=""
+            />
+            <img
+              class="cup__Right"
+              src=" img/News/cup_bgRight.svg"
+              alt=""
+            />
+          </div>
+
+          <div class="footer__inner">
+            <div class="footer__logo">
+              <h2 class="logo__title">Bean Scene</h2>
+              <p class="logo__text">
+                Lorem Ipsum is simply dummy text of the printing and typesetting
+                industry. Lorem Ipsum has been the industry's standard dummy
+                text ever since the 1500s, when an unknown printer took a galley
+                of type and scrambled it to make a type specimen book.
+              </p>
+
+              <div class="footer__social">
+                <a class="social__icon" href="#">
+                  <img src=" img/Footer/facb.svg" alt="" />
+                </a>
+
+                <a class="social__icon" href="#">
+                  <img src=" img/Footer/ints.svg" alt="" />
+                </a>
+
+                <a class="social__icon" href="#">
+                  <img src=" img/Footer/youtube.svg" alt="" />
+                </a>
+
+                <a class="social__icon" href="#">
+                  <img src=" img/Footer/twitter.svg" alt="" />
+                </a>
+              </div>
+            </div>
+
+            <div class="footer__about">
+              <h2 class="footer__title">About</h2>
+              <div class="footer__web">
+                <a href="#">Menu</a>
+                <a href="#">Features</a>
+                <a href="#">News &amp; Blogs</a>
+                <a href="#">Help &amp; Supports</a>
+              </div>
+            </div>
+            <div class="footer__company">
+              <h2 class="footer__title">Company</h2>
+              <div class="footer__web">
+                <a href="#">How we work</a>
+                <a href="#">Terms of service</a>
+                <a href="#">Pricing</a>
+                <a href="#">FAQ</a>
+              </div>
+            </div>
+            <div class="footer__contacts">
+              <h2 class="footer__title">Contact Us</h2>
+              <div class="contacts__address">
+                Akshya Nagar 1st Block 1st Cross, Rammurthy nagar,
+                Bangalore-560016
+              </div>
+
+              <div class="contacts__tel">
+                <a class="contacts__footer" href="tel:+1 202-918-2132"
+                  >+1 202-918-2132</a
+                >
+              </div>
+
+              <div class="contacts__email">
+                <a class="contacts__footer" href="mailto:beanscene@mail.com"
+                  >beanscene@mail.com</a
+                >
+              </div>
+
+              <div class="contacts__web">
+                <a class="contacts__footer" href="#">www.beanscene.com</a>
+              </div>
+            </div>
+            <!--/footer__inner-->
+          </div>
+          <!--/container-->
+        </div>
+      </footer>
+    </div>
+
+    <!--Modals-->
+
+    <div class="modal" id="loginModal">
+      <div class="modal__inner">
+        <div class="modal__content">
+          <form class="form" action="/" method="post">
+            <div class="form__content">
+              <h2 class="form__title">Personal account</h2>
+
+              <div class="form__group">
+                <input class="input__modal" type="text" placeholder="Login" />
+              </div>
+
+              <div class="form__group">
+                <input
+                  class="input__modal"
+                  type="password"
+                  placeholder="Password"
+                />
+              </div>
+
+              <div class="modal__login">
+                <button type="button" class="btn__form">Login In</button>
+
+                <a
+                  class="form__password"
+                  href="#"
+                  data-modal="#passwordModal"
+                  data-modal-close
+                  >forgot your password?</a
+                >
+
+                <button class="modal__close" data-modal-close>
+                  <img src=" img/close.svg" alt="Close" />
+                </button>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+      <!--/modalLogin-->
+    </div>
+
+    <!--modalReg-->
+    <div class="modal" id="regModal">
+      <div class="modal__inner">
+        <div class="modal__content">
+          <form class="form" action="/" method="post">
+            <div class="form__content">
+              <h2 class="form__title">Registration</h2>
+
+              <div class="form__group">
+                <input class="input__modal" type="text" placeholder="E-mail" />
+              </div>
+
+              <div class="form__group">
+                <input class="input__modal" type="text" placeholder="Login" />
+              </div>
+
+              <div class="form__group">
+                <input
+                  class="input__modal"
+                  type="password"
+                  placeholder="Password"
+                />
+              </div>
+
+              <div class="form__group">
+                <input
+                  class="input__modal"
+                  type="password"
+                  placeholder="Repeat the password"
+                />
+              </div>
+
+              <div class="form__group-sm">
+                <input type="checkbox" id="Argree" />
+                <label for="Agree"
+                  >I give my consent to the <br />
+                  bprocessing of personal data</label
+                >
+              </div>
+
+              <div class="modal__login">
+                <button type="button" class="btn__form btn--reg">
+                  Register
+                </button>
+
+                <button class="modal__close" data-modal-close>
+                  <img src=" img/close.svg" alt="Close" />
+                </button>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+      <!--/modalReg-->
+    </div>
+
+    <!--modalReg-->
+    <div class="modal" id="passwordModal">
+      <div class="modal__inner">
+        <div class="modal__content">
+          <form class="form" action="/" method="post">
+            <div class="form__content">
+              <h2 class="form__title">Forgot your password?</h2>
+
+              <div class="form__group">
+                <input class="input__modal" type="text" placeholder="E-mail" />
+              </div>
+
+              <div class="modal__login">
+                <button type="button" class="btn__form btn--reg">Send</button>
+
+                <button class="modal__close" data-modal-close>
+                  <img src=" img/close.svg" alt="Close" />
+                </button>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+      <!--/modalReg-->
+    </div>
+    <!--Javascript-->
+
+    <script src=" js/jquery-3.6.3.min.js"></script>
+    <script src=" js/slick.min.js"></script>
+    <script src=" js/app.js"></script>
+  </body>
+</html>
